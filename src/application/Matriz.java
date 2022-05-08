@@ -1,7 +1,6 @@
 package application;
 
 public class Matriz {
-	
 
 		private int cabezaX;
 		private int cabezaY;
@@ -32,10 +31,8 @@ public class Matriz {
 	        else {
 	        	generarManzana();
 	        }
-			
 		}
 
-	  
 
 		public void sumarMatriz(int valor) {
 		for (int i = 0; i < (matriz.length); i++) {
@@ -98,9 +95,5 @@ public class Matriz {
 	            resultado += linea + "\n";
 	        }
 	        return resultado;
-	    
 	  }
-
-	   
-
 }
